@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LanguageExt.Core" Version="5.0.0-beta-77" />
+		<ProjectReference Include="../LanguageExt.Core/LanguageExt.Core.csproj" />
 	</ItemGroup>
 
 </Project>
