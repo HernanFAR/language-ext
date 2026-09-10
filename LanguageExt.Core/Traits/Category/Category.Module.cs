@@ -41,7 +41,6 @@ public static class Category
     public static K<F, I1, O> Compose<F, I1, I2, I3, I4, I5, I6, O>(
         K<F, I1, I2> first,
         K<F, I2, I3> second,
-        K<F, I2, I3> second,
         K<F, I3, I4> third,
         K<F, I4, I5> fourth,
         K<F, I5, I6> fifth,
